@@ -53,10 +53,12 @@ main {
 }
 
 main h1 {
-	border-bottom-style: solid;
-	border-top-style: solid;
+	border-style: double;
+	border-radius: 5px;
 	border-width: 3px;
 	border-color: #931420;
+	box-shadow: 3px 3px black;
+	background-color: white;
 	font-size: 150%;
 	padding-top: 0.3em;
 	padding-bottom: 0.3em;
